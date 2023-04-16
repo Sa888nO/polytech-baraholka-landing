@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    width: 100%;
+    padding: 0 24px;
+    border-bottom: 2px solid rgba(#7E868E, 0.1);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 1180px;
+    width: 100%;
+    p {
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+
+.nav {
+    display: flex;
+    gap: 41px;
+    font-weight: 500;
+    font-size: 14px;        
+}
+
+.h1 {
+    // background: linear-gradient(270deg, #7E5AF0 9.52%, #62D1EA 53.39%, #2AB67D 94.12%);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+    // background-clip: text;
+    // -webkit-text-fill-color: transparent;
+}
