@@ -2,9 +2,6 @@ import styles from "./Bloc5.module.scss";
 import React from "react";
 import {Logo} from "./Icons/Logo1";
 import {Logo2} from "./Icons/Logo2";
-import img from "./Icons/screen.png";
-import {Icon} from "./Icons/Icon";
-import {Mans} from "./Icons/mans";
 import user1 from "./Icons/1.png";
 import user2 from "./Icons/2.png";
 import user3 from "./Icons/3.png";
@@ -12,10 +9,13 @@ import user4 from "./Icons/4.png";
 import user5 from "./Icons/5.png";
 import user6 from "./Icons/6.png";
 import user7 from "./Icons/7.png";
+import Right from "./Icons/Right.png";
+import Left from "./Icons/Left.png";
 
 export const Bloc5 = () => {
+
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="about-team">
             <div className={styles.content}>
                 <div className={styles.titleBlock}>
                     <Logo />
@@ -25,6 +25,8 @@ export const Bloc5 = () => {
                         <Logo2 />
                     </div>
                 </div>
+                <img src={Left} alt="" className={styles.handLeft} />
+                <img src={Right} alt="" className={styles.handRight}/>
             </div>
             <div className={styles.block}>
                 <div>
@@ -58,7 +60,6 @@ export const Bloc5 = () => {
                     <p>Паша, фронтендер</p>
                 </div>
             </div>
-
         </section>
     );
 };

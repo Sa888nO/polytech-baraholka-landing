@@ -5,6 +5,8 @@ import img from "./Icons/screen.png";
 import {Icon} from "./Icons/Icon";
 import {Logo2} from "./Icons/Logo2";
 import {Man} from "./Icons/man";
+import ball1 from "./Icons/ball1.png";
+import ball2 from "./Icons/ball2.png";
 
 export const Bloc3 = () => {
     return (
@@ -34,6 +36,8 @@ export const Bloc3 = () => {
                 {/* </div> */}
             </div>
             <div className={styles.imgBloc}>
+                <img src={ball2} alt="" className={styles.ball1}/>
+                <img src={ball1} alt="" className={styles.ball2}/>
                 <img src={img} className={styles.img} />
             </div>
 

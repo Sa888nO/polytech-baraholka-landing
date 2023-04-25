@@ -9,6 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* min-width: 1300px; */
 }
 
 
@@ -17,3 +18,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+//FONTS
+$fontsizeS: 14px;
+$fontsizeM: 24px;
+$fontsizeL: 32px;
+$fontsizeXL: 36px;

@@ -13,6 +13,7 @@
     // flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+    position: relative;
     max-width: 1400px;
     width: 100%;
     p {
@@ -43,4 +44,22 @@
 
 .subPhone {
     margin-top: -110px;
+}
+.subPhone, .phone {
+    position: relative;
+    z-index: 2;
+}
+
+.ball1 {
+    position: absolute;
+    left: 900px;
+    bottom: 350px;
+    z-index: 1;
+}
+
+.ball2 {
+    position: absolute;
+    left: -250px;
+    bottom: -20px;
+    z-index: 1;
 }

@@ -24,13 +24,21 @@
     display: flex;
     gap: 41px;
     font-weight: 500;
-    font-size: 14px;        
-}
-
-.h1 {
-    // background: linear-gradient(270deg, #7E5AF0 9.52%, #62D1EA 53.39%, #2AB67D 94.12%);
-    // -webkit-background-clip: text;
-    // -webkit-text-fill-color: transparent;
-    // background-clip: text;
-    // -webkit-text-fill-color: transparent;
+    font-size: 20px; 
+    a {
+        text-decoration: none;
+        transition: 2s;
+        background: white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        &:hover {
+            background: linear-gradient(270deg, #7E5AF0 9.52%, #62D1EA 53.39%, #2AB67D 94.12%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+    }       
 }

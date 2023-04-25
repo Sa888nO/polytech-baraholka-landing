@@ -6,6 +6,7 @@
     min-height: 90px;
     width: 100%;
     padding: 0 24px;
+    position: relative;
 }
 
 .titleBlock {
@@ -28,6 +29,7 @@
 
 .content {
     display: flex;
+    position: relative;
     margin: 0 auto;
     flex-direction: column;
     max-width: 1180px;
@@ -50,4 +52,17 @@
         font-size: 20px;
         margin: 0;
     }
+}
+
+.handLeft {
+    position: absolute;
+    margin-left: -680px;
+    top: -50px;
+}
+
+.handRight {
+    position: absolute; 
+    margin-left: 880px;
+    top: -50px;
+    // bottom: 280px;
 }

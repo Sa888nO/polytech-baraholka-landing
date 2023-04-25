@@ -8,7 +8,7 @@ import {Man} from "./Icons/man";
 
 export const Bloc6 = () => {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="about-task">
             <div className={styles.content}>
                 <div className={styles.titleBlock}>
                     <Logo1 />

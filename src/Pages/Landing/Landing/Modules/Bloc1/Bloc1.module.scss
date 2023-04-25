@@ -4,7 +4,7 @@
     align-items: center;
     min-height: 90px;
     width: 100%;
-    padding: 0 24px;
+    padding: 0 50px;
 }
 
 .content {
@@ -31,25 +31,47 @@
 }
 
 .contentBloc1 {
-    max-width: 650px;
+    min-width: 500px;
 }
 
 .buttonBlock {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
     .button1 {
-        padding: 30px 50px;
         background-color: #5D6AFB;
-        border-radius: 5px;
+        border: 2px solid transparent;
+        &:hover {
+            border: 2px solid #5D6AFB;
+            background: none;
+        }
     }
     .button2 {
+        &:hover {
+            background-color: #5D6AFB;
+        }
         border: 2px solid #5D6AFB;
-        padding: 30px 50px;
+    }
+    .button1, .button2 {
+        transition: 1s;
+        cursor: pointer;
+        padding: 15px 35px;
         border-radius: 5px;
     }
 }
 
 .icon {
-    width: 500px;
+    &1 {
+        position: relative;
+        z-index: 2;
+    }
+    // width: 500px;
+    position: relative;
+}
+
+.ball {
+    position: absolute;
+    left: 250px;
+    bottom: 80px;
+    z-index: 1;
 }

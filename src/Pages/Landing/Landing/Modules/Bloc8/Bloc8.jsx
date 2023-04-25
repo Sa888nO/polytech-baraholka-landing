@@ -4,6 +4,7 @@ import phone1 from "./Icons/1.png";
 import phone2 from "./Icons/2.png";
 import phone3 from "./Icons/3.png";
 
+
 export const Bloc8 = () => {
     return (
         <section className={styles.section}>
