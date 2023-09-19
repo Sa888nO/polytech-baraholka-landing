@@ -1,0 +1,26 @@
+.wrapper {
+    border-bottom: 1px solid rgba(126, 134, 142, 0.1);;
+}
+
+.content {
+    padding: 0 16px;
+    max-width: 1232px;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+    & a {
+        text-decoration: none;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        // line-height: 150%;
+    }
+}

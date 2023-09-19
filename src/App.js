@@ -1,13 +1,12 @@
-import "./App.css";
 import React from "react";
-import {Landing} from "./Pages/Landing/Landing";
+// import {Landing} from "./Pages/Landing/Landing";
+import {Landing} from "./Landing/Landing";
+import styles from "./App.module.scss";
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <Landing />
-            </header>
+        <div className={styles.wrapper}>
+            <Landing />
         </div>
     );
 }
