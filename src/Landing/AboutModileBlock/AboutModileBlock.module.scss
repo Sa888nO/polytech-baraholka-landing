@@ -1,0 +1,28 @@
+.wrapper {
+    margin-top: 128px;
+}
+.content {
+    padding: 0 16px;
+    max-width: 1232px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.picture {
+    position: relative;
+    margin-top: 80px;
+    bottom: 132px;
+    img {
+        width: 387px;
+        height: 780px;
+    }
+}
+.mainBlock {
+    margin-top: 128px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.fakeBlock {
+    width: 400px;
+}

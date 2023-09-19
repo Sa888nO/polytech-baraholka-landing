@@ -1,0 +1,52 @@
+.wrapper {
+    margin-top: 50px;
+}
+.content {
+    padding: 0 16px;
+    max-width: 1232px;
+    margin: 0 auto;
+    height: 100%;
+}
+.mainContent {
+    position: relative;
+    margin-top: 32px;
+    display: flex;
+}
+.buttonContent {
+    margin-top: 90px;
+    display: flex;
+    gap: 60px;
+}
+.infoText {
+    max-width: 746px;
+    font-size: 32px;
+}
+
+.buttonToSite,
+.buttonToGit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 50px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.buttonToSite {
+    background-color: #5D6AFB;
+    &:hover {
+        background-color: transparent;
+        border: 2px solid #5D6AFB;
+    }
+}
+.buttonToGit {
+    background-color: transparent;
+    border: 2px solid #5D6AFB;
+    &:hover {
+        background-color: #5D6AFB;
+    }
+}

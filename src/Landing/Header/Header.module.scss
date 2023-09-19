@@ -1,11 +1,11 @@
 .wrapper {
-    border-bottom: 1px solid rgba(126, 134, 142, 0.1);;
+    border-bottom: 2px solid rgba(126, 134, 142, 0.1);
+    height: 90px;
 }
 
 .content {
     padding: 0 16px;
     max-width: 1232px;
-    height: 90px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -16,11 +16,14 @@
 .nav {
     display: flex;
     gap: 40px;
-    & a {
+    a {
         text-decoration: none;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
-        // line-height: 150%;
+        transition: 0.2s;
+    }
+    a:hover {
+        color: #7E5AF0;
     }
 }
