@@ -10,3 +10,21 @@
     padding-bottom: 8px;
     margin-left: -6px;
 }
+
+@media (max-width: 1000px) {
+    .findFast{
+        font-size: 80px;
+    }
+}
+@media (max-width: 750px) {
+    .findFast{
+        font-size: 60px;
+        text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    .findFast{
+        font-size: 50px;
+        text-align: center;
+    }
+}

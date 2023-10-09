@@ -5,7 +5,10 @@ export const Title = () => {
     return (
         <div className={styles.title}>
             <div className={styles.get}>
-                Совсем скоро и в MOBILE - версии
+                Встречай нашу
+            </div>
+            <div className={styles.inUniversity}>
+                команду!
             </div>
         </div>
     );

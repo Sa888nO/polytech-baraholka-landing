@@ -1,5 +1,5 @@
 .get {
-    background: linear-gradient(270deg, #7E5AF0 30%, #62D1EA 80%, #2AB67D 94.12%);
+    background: linear-gradient(270deg, #7E5AF0 10%, #62D1EA 53%, #2AB67D 94.12%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -34,10 +34,11 @@
 @media (max-width: 750px) {
     .inUniversity,
     .get {
-        font-size: 60px;
         text-align: center;
+        font-size: 60px;
     }
 }
+
 @media (max-width: 500px) {
     .inUniversity,
     .get {

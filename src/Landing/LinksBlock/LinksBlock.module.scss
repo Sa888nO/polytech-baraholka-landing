@@ -6,6 +6,7 @@
     max-width: 1232px;
     margin: 0 auto;
     height: 100%;
+    position: relative;
 }
 .mainContent {
     position: relative;
@@ -49,4 +50,67 @@
     &:hover {
         background-color: #5D6AFB;
     }
+}
+
+@media (max-width: 1700px) {
+    .infoText {
+        max-width: 500px;
+        font-size: 24px;
+    }
+}
+@media (max-width: 1000px) {
+    .infoText {
+        max-width: 400px;
+        font-size: 16px;
+    }
+    .buttonContent {
+        margin-top: 45px;
+        gap: 20px;
+    }
+    .buttonToSite,
+    .buttonToGit {
+        padding: 10px 30px;
+        font-size: 14px;
+}
+}
+@media (max-width: 750px) {
+    .mainContent {
+        flex-direction: column;
+    }
+    .infoText {
+        max-width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 16px;
+    }
+    .buttonContent {
+        padding-top: 40px;
+        max-width: 80%;
+        gap: 16px;
+        margin: 0 auto;
+    }
+    .buttonToSite,
+    .buttonToGit {
+        padding: 10px 0px;
+        width: 50%;
+}
+}
+
+@media (max-width: 750px) {
+    .wrapper {
+        margin-top: 32px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.r1 {
+    position: absolute;
+    opacity: 0.6;
+    width: 660px;
+
+    left: -600px;
+    top: 0;
 }

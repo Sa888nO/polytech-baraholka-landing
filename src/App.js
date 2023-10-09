@@ -1,5 +1,4 @@
 import React from "react";
-// import {Landing} from "./Pages/Landing/Landing";
 import {Landing} from "./Landing/Landing";
 import styles from "./App.module.scss";
 

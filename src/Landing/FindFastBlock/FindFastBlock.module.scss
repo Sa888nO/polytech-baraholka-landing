@@ -17,3 +17,37 @@
         width: 100%;
     }
 }
+
+@media (max-width: 750px) {
+    .subText
+    {
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .wrapper {
+        margin-top: 64px;
+    }
+}
+@media (max-width: 750px) {
+    .wrapper {
+        margin-top: 32px;
+    }
+}
+
+.r3 {
+    position: absolute;
+    z-index: -1;
+    left: 20%;
+    top: -50%;
+    width: 50%;
+}
+.r4 {
+    position: absolute;
+    z-index: -1;
+    right: 20%;
+    top: -50%;
+    width: 50%;
+}

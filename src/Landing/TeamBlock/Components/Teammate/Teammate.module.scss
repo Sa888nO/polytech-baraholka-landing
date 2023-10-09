@@ -1,0 +1,17 @@
+.teammate {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: min-content;
+    align-items: center;
+}
+.photo {
+    width: 248px;
+    height: 248px;
+    & img {
+        width: 100%;
+    }
+}
+.name {
+    font-size: 20px;
+}

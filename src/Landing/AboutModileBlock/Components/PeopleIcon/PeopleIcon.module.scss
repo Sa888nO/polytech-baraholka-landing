@@ -1,7 +1,14 @@
 .peopleIcon {
-    width: 1200px;
-    right: 30%;
+    width: 90%;
+    right: 25%;
     top: 10%;
     position: absolute;
+}
+
+@media (max-width: 1000px) {
+    .peopleIcon {
+        position: static;
+        width: 100%;
+    }
     
 }

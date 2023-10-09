@@ -27,3 +27,34 @@
         color: #7E5AF0;
     }
 }
+
+@media (max-width: 900px) {
+    .wrapper {
+        height: 75px;
+    }
+    .nav {
+        gap: 16px;
+    }
+}
+@media (max-width: 700px) {
+    .wrapper {
+        height: 60px;
+    }
+    .nav {
+        gap: 12px;
+    }
+    .nav a {
+        font-size: 12px;
+    }
+}
+@media (max-width: 500px) {
+    .wrapper {
+        height: 40px;
+    }
+    .nav {
+        gap: 10px;
+    }
+    .nav a {
+        font-size: 10px;
+    }
+}
