@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./WorkBlock.module.scss";
 import {Title} from "./Components/Title";
+import Fade from "react-reveal/Fade";
 export const WorkBlock = () => {
     return (
         <div className={styles.wrapper} id="section3">
@@ -10,67 +11,69 @@ export const WorkBlock = () => {
                     <div className={styles.title}>
                         Фронт
                     </div>
-                    <ul>
-                        <li>
+                    <Fade left cascade>
+                        <ul>
+                            <li>
                             Сделать адаптив под все разрешения 375 - 1920
-                        </li>
-                        <li>
+                            </li>
+                            <li>
                             Реализовать авторизацию в токенах
-                        </li>
-                        <li>
+                            </li>
+                            <li>
                             Реализовать работу с товарами, фото и профилями
-                        </li>
-                        <li>
+                            </li>
+                            <li>
                             Реализовать геокарту
-                        </li>
-                        <li>
+                            </li>
+                            <li>
                             Редизайн
-                        </li>
-                        <li>
+                            </li>
+                            <li>
                             Реализовать возможность писать (чат между покупателем ипродавцом)
-                        </li>
-                        <li>
+                            </li>
+                            <li>
                             Реализовать сортировки по категория
-                        </li>
-                    </ul>
-
+                            </li>
+                        </ul>
+                    </Fade>
                     <div className={styles.title}>
                         Бэк
                     </div>
-                    <ul>
-                        <li>
+                    <Fade right cascade>
+                        <ul>
+                            <li>
                             Исправить логику добавления картинок
-                        </li>
-                        <li>
+                            </li>
+                            <li>
                             Добавить фильтрацию
-                        </li>
-                        <li>
+                            </li>
+                            <li>
                             Добавить поиск
-                        </li>
-                        <li>
+                            </li>
+                            <li>
                             Добавить чат
-                        </li>
-                        <li>
+                            </li>
+                            <li>
                             Добавить пагинацию к списку товаров
-                        </li>
-                    </ul>
-                    
+                            </li>
+                        </ul>
+                    </Fade>
                     <div className={styles.title}>
                         Дизайн
                     </div>
-                    <ul>
-                        <li>
+                    <Fade left cascade>
+                        <ul>
+                            <li>
                             Доделать мобилку
-                        </li>
-                        <li>
+                            </li>
+                            <li>
                             Редизайн веба
-                        </li>
-                        <li>
+                            </li>
+                            <li>
                             Реализовать реакции
-                        </li>
-                    </ul>
-                    {/* <div className={styles.contentItem}>
-                    </div> */}
+                            </li>
+                        </ul>
+                    </Fade>
                 </div>
             </div>
         </div>

@@ -5,8 +5,10 @@ import {PeopleIcon} from "./Components/PeopleIcon/PeopleIcon";
 import picture from "./Group.png";
 import r3 from "./r3.png";
 import r4 from "./r4.png";
+import {Bounce} from "react-reveal";
 export const FindFastBlock = () => {
     return (
+        // <Bounce rigth>
         <div className={styles.wrapper}>
             <div className={styles.content}>
                 <div>
@@ -23,5 +25,6 @@ export const FindFastBlock = () => {
                 </div>
             </div>
         </div>
+        // </Bounce>
     );
 };

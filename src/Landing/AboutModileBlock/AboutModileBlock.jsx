@@ -4,8 +4,10 @@ import {Title} from "./Components/Title";
 import {PeopleIcon} from "./Components/PeopleIcon/PeopleIcon";
 import picture from "./Image.png";
 import r5 from "./r5.png";
+import {Bounce} from "react-reveal";
 export const AboutModileBlock = () => {
     return (
+        // <Bounce right>
         <div className={styles.wrapper}>
             <div className={styles.content}>
                 <Title />
@@ -20,5 +22,6 @@ export const AboutModileBlock = () => {
                 </div>
             </div>
         </div>
+        // </Bounce>
     );
 };
