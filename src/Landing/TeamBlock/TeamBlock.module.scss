@@ -1,0 +1,30 @@
+.wrapper {
+    margin-top: 50px;
+}
+.content {
+    padding: 0 16px;
+    max-width: 1232px;
+    margin: 0 auto;
+    height: 100%;
+}
+.row1 {
+    margin-top: 100px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1000px) {
+    .wrapper,
+    .row1 {
+        margin-top: 48px;
+    }
+}
+@media (max-width: 750px) {
+    .wrapper,
+    .row1 {
+        margin-top: 32px;
+    }
+}

@@ -1,11 +1,11 @@
 .wrapper {
-    border-bottom: 1px solid rgba(126, 134, 142, 0.1);;
+    border-bottom: 2px solid rgba(126, 134, 142, 0.1);
+    height: 90px;
 }
 
 .content {
     padding: 0 16px;
     max-width: 1232px;
-    height: 90px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -16,11 +16,45 @@
 .nav {
     display: flex;
     gap: 40px;
-    & a {
+    a {
         text-decoration: none;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
-        // line-height: 150%;
+        transition: 0.2s;
+    }
+    a:hover {
+        color: #7E5AF0;
+    }
+}
+
+@media (max-width: 900px) {
+    .wrapper {
+        height: 75px;
+    }
+    .nav {
+        gap: 16px;
+    }
+}
+@media (max-width: 700px) {
+    .wrapper {
+        height: 60px;
+    }
+    .nav {
+        gap: 12px;
+    }
+    .nav a {
+        font-size: 12px;
+    }
+}
+@media (max-width: 500px) {
+    .wrapper {
+        height: 40px;
+    }
+    .nav {
+        gap: 10px;
+    }
+    .nav a {
+        font-size: 10px;
     }
 }
